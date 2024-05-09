@@ -1,1 +1,22 @@
 Code  for Databases to save the Transaction Details.
+
+
+
+
+create database bankmanagementsystem;
+show databases;
+use bankmanagementsystem;
+
+create table signup( formno varchar(20), name varchar(20),
+father_name varchar(20),dob varchar(20),gender varchar(20),
+ email varchar(30), marital_status varchar(20), address varchar(25),
+ city varchar(25), pin_code varchar(20),state varchar(25));
+
+
+create table SignupTwo( formno varchar(20), religion varchar(20),
+category varchar(20),income varchar(20),education varchar(20),
+ occupation varchar(30), pan varchar(20), aadhar varchar(25),
+ seniorcitizen varchar(25), existingaccount varchar(20));
+select * from signup;
+show tables;
+//delete from signupTwo where formno= '0';
